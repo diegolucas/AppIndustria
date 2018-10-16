@@ -34,4 +34,35 @@ public class FlorestaModel {
         this.estado = estado;
     }
 
+    public Integer getCortadas() {
+        return cortadas;
+    }
+
+    public void setCortadas(Integer cortadas) {
+        this.cortadas = cortadas;
+    }
+
+    public Integer getVolume() {
+        return volume;
+    }
+
+    public void setVolume(Integer volume) {
+        this.volume = volume;
+    }
+
+    public Integer getRepostas() {
+        return repostas;
+    }
+
+    public void setRepostas(Integer repostas) {
+        this.repostas = repostas;
+    }
+
+    public Integer getPago() {
+        return pago;
+    }
+
+    public void setPago(Integer pago) {
+        this.pago = pago;
+    }
 }
